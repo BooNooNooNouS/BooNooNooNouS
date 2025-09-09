@@ -1,7 +1,7 @@
+<style>
 <!-- Updating these styles will mean updating create_svg as well,
 at least until this code is made more dynamic, as GITHUB requires
 pre-generated svgs instead of dynamic ones. -->
-<style>
 body {
   text-align: justify;
 }
@@ -48,6 +48,7 @@ body {
 }
 </style>
 
+<!-- START_HEADER_TABLE -->
 <table style="width:100%;">
   <tr>
     <td>
@@ -61,7 +62,7 @@ body {
     </td>
   </tr>
 </table>
-
+<!-- END_HEADER_TABLE -->
 
 
 
