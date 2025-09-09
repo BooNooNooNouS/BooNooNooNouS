@@ -1,3 +1,6 @@
+<!-- Updating these styles will mean updating create_svg as well,
+at least until this code is made more dynamic, as GITHUB requires
+pre-generated svgs instead of dynamic ones. -->
 <style>
 body {
   text-align: justify;
@@ -69,8 +72,10 @@ body {
 ![CICD](https://img.shields.io/badge/CICD-5C2D91?style=flat)
 ![Frameworks](https://img.shields.io/badge/Frameworks_and_Libraries-ED8B00?style=flat)
 
+<!-- START_COMPANY_TABLE -->
 | <span class="company-name">Redfin</span>| <span class="position-title">Technical Lead</span> | <span class="company-location">Seattle, WA, USA</span> | <span class="position-timeline">01/19 - 11/24</span> |
 | --- | --- | --- | --- |
+<!-- END_COMPANY_TABLE -->
 
 
 ![Python](https://img.shields.io/badge/Python-4EAA25?style=flat&logo=python&logoColor=white)
@@ -117,9 +122,10 @@ body {
 * Representative for diversity and inclusion for the Financial Engineering division inside the Technology Platform Mission (comprised of 500+ people).  Kicked off events to improve the sense of inclusion in the division and designed an onboarding system for new engineers. 
 
 
-
+<!-- START_COMPANY_TABLE -->
 | <span class="company-name">Redfin</span>| <span class="position-title">Senior Software Engineer</span> | <span class="company-location">Seattle, WA, USA</span> | <span class="position-timeline">04/15 - 08/17</span> |
 | --- | ---|---|---|
+<!-- END_COMPANY_TABLE -->
 
 
 ![Java](https://img.shields.io/badge/Java-4EAA25?style=flat&logo=openjdk&logoColor=white)
@@ -139,10 +145,10 @@ body {
 
 * Owned E2E testing of proprietary telemetry pipeline, A/B experiments framework, Google Analytics integration, and SQS integration.  Created a Google chrome extension to allow the company for real-time monitoring and debugging of the telemetry pipeline.
 
-
+<!-- START_COMPANY_TABLE -->
 | <span class="company-name">Microsoft</span>| <span class="position-title">Software Development Engineer in Test II</span> | <span class="company-location">Seattle, WA, USA</span> | <span class="position-timeline">03/09 - 03/15</span> |
 | --- | ---|---|---|
-
+<!-- END_COMPANY_TABLE -->
 
 ![C#](https://img.shields.io/badge/C%23-4EAA25?style=flat&logo=c-sharp&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-4EAA25?style=flat&logo=c%2B%2B&logoColor=white)
@@ -162,4 +168,4 @@ body {
 
 ---
 
-Previous experience and education available upon request.
+Additional experience and education available upon request.

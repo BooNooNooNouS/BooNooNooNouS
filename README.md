@@ -5,7 +5,7 @@
 ![Frameworks](https://img.shields.io/badge/Frameworks_and_Libraries-ED8B00?style=flat)
 
 ----
-![Redfin Header](./redfin_header.svg)
+![Redfin Header](./redfin_technical_lead.svg)
 
 ![Python](https://img.shields.io/badge/Python-4EAA25?style=flat&logo=python&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-0052CC?style=flat&logo=kubernetes&logoColor=white)
