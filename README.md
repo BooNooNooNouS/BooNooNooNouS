@@ -1,11 +1,25 @@
+<!-- Updating these styles will mean updating create_svg as well,
+at least until this code is made more dynamic, as GITHUB requires
+pre-generated svgs instead of dynamic ones. -->
+
+
+# Karla Nunez
+<a href="https://www.linkedin.com/in/karnu/"><img src="./icons/linkedin-icon.svg" width="24" height="24" alt="LinkedIn"></a>
+<a href="https://github.com/BooNooNooNouS"><img src="./icons/github-icon.svg" width="24" height="24" alt="GitHub"></a>
+<a href="https://gitlab.com/BooNooNooNouS"><img src="./icons/gitlab-icon.svg" width="24" height="24" alt="GitLab"></a>
+
+
+
+
+-------
 # Work experience
 ![PL](https://img.shields.io/badge/programming_languages-4EAA25?style=flat)
 ![CloudInfra](https://img.shields.io/badge/Cloud_and_Infrastructure-0052CC?style=flat)
 ![CICD](https://img.shields.io/badge/CICD-5C2D91?style=flat)
 ![Frameworks](https://img.shields.io/badge/Frameworks_and_Libraries-ED8B00?style=flat)
 
-----
-![Redfin Header](./redfin_technical_lead.svg)
+![Redfin](./redfin_technical_lead.svg)
+
 
 ![Python](https://img.shields.io/badge/Python-4EAA25?style=flat&logo=python&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-0052CC?style=flat&logo=kubernetes&logoColor=white)
@@ -31,9 +45,7 @@
 
 * With the learnings from my efforts on resource utilization, I created a set of tools to allow other teams to understand, track, and optimize their resources.  These tools were adopted by several engineering teams, helping the company save money. 
 
-
-| <span class="company-name">Spotify</span>| <span class="position-title">Experienced Engineer</span> | <span class="company-location">Stockholm, Sweden</span> | <span class="position-timeline">09/17 - 10/18</span> |
-| --- | ---|---|---|
+![Spotify](./spotify_experienced_engineer.svg)
 
 ![Java](https://img.shields.io/badge/Java-4EAA25?style=flat&logo=openjdk&logoColor=white)
 ![Scala](https://img.shields.io/badge/Scala-4EAA25?style=flat&logo=scala&logoColor=white)
@@ -51,9 +63,7 @@
 * Representative for diversity and inclusion for the Financial Engineering division inside the Technology Platform Mission (comprised of 500+ people).  Kicked off events to improve the sense of inclusion in the division and designed an onboarding system for new engineers. 
 
 
-
-| <span class="company-name">Redfin</span>| <span class="position-title">Senior Software Engineer</span> | <span class="company-location">Seattle, WA, USA</span> | <span class="position-timeline">04/15 - 08/17</span> |
-| --- | ---|---|---|
+![Redfin](./redfin_senior_software_engineer.svg)
 
 
 ![Java](https://img.shields.io/badge/Java-4EAA25?style=flat&logo=openjdk&logoColor=white)
@@ -73,10 +83,7 @@
 
 * Owned E2E testing of proprietary telemetry pipeline, A/B experiments framework, Google Analytics integration, and SQS integration.  Created a Google chrome extension to allow the company for real-time monitoring and debugging of the telemetry pipeline.
 
-
-| <span class="company-name">Microsoft</span>| <span class="position-title">Software Development Engineer in Test II</span> | <span class="company-location">Seattle, WA, USA</span> | <span class="position-timeline">03/09 - 03/15</span> |
-| --- | ---|---|---|
-
+![Microsoft](./microsoft_software_development_engineer_in_test_ii.svg)
 
 ![C#](https://img.shields.io/badge/C%23-4EAA25?style=flat&logo=c-sharp&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-4EAA25?style=flat&logo=c%2B%2B&logoColor=white)
@@ -96,4 +103,4 @@
 
 ---
 
-Previous experience and education available upon request.
+Additional experience and education available upon request.

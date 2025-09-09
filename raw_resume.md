@@ -102,9 +102,10 @@ body {
 
 * With the learnings from my efforts on resource utilization, I created a set of tools to allow other teams to understand, track, and optimize their resources.  These tools were adopted by several engineering teams, helping the company save money. 
 
-
+<!-- START_COMPANY_TABLE -->
 | <span class="company-name">Spotify</span>| <span class="position-title">Experienced Engineer</span> | <span class="company-location">Stockholm, Sweden</span> | <span class="position-timeline">09/17 - 10/18</span> |
 | --- | ---|---|---|
+<!-- END_COMPANY_TABLE -->
 
 ![Java](https://img.shields.io/badge/Java-4EAA25?style=flat&logo=openjdk&logoColor=white)
 ![Scala](https://img.shields.io/badge/Scala-4EAA25?style=flat&logo=scala&logoColor=white)
