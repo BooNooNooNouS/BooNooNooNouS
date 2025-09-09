@@ -4,9 +4,8 @@
 ![CICD](https://img.shields.io/badge/CICD-5C2D91?style=flat)
 ![Frameworks](https://img.shields.io/badge/Frameworks_and_Libraries-ED8B00?style=flat)
 
-| <span class="company-name">Redfin</span>| <span class="position-title">Technical Lead</span> | <span class="company-location">Seattle, WA, USA</span> | <span class="position-timeline">01/19 - 11/24</span> |
-| --- | --- | --- | --- |
-
+----
+![Redfin Header](./redfin_header.svg)
 
 ![Python](https://img.shields.io/badge/Python-4EAA25?style=flat&logo=python&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-0052CC?style=flat&logo=kubernetes&logoColor=white)
