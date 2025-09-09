@@ -35,7 +35,7 @@ definitions = {
         "text_anchor": "end",
         "fill": FONT_COLOR,
         "y": Y_POSITION,
-        "x": "75%",
+        "x": "85%",
     },
     "timeline": {
         "font_size": "12.8",
@@ -76,7 +76,7 @@ def main():
 #   <text x="100%" y="28" font-size="12.8" text-anchor="end">01/19 - 11/24</text>
 # </svg>
 
-        f.write(f'<svg width="100%" height="40" xmlns="http://www.w3.org/2000/svg">')
+        f.write(f'<svg width="100%" height="40" viewBox="0 0 600 40" xmlns="http://www.w3.org/2000/svg">')
         for definition_name, definition in definitions.items():
             content = getattr(args, definition_name)
             f.write(get_svg_text_content(definition, content))
