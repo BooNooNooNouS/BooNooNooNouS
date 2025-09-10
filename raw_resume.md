@@ -67,7 +67,7 @@ body {
 
 
 -------
-# Work experience
+
 ![PL](https://img.shields.io/badge/programming_languages-4EAA25?style=flat)
 ![CloudInfra](https://img.shields.io/badge/Cloud_and_Infrastructure-0052CC?style=flat)
 ![CICD](https://img.shields.io/badge/CICD-5C2D91?style=flat)
@@ -88,8 +88,13 @@ body {
 ![Jenkins](https://img.shields.io/badge/Jenkins-5C2D91?style=flat&logo=jenkins&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-5C2D91?style=flat&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-5C2D91.svg?style=flat&logo=githubactions&logoColor=white)
+![Terraform](https://img.shields.io/badge/terraform-5C2D91.svg?style=flat&logo=terraform&logoColor=white)
 
 
+* Orchestrated end-to-end modernization and migration of data analytics pipelines, implementing a blue/green deployment methodology for zero-downtime transitions, and improving operational visibility.
+
+
+* Became the organization's expert on cross-language package hosting in AWS and Artifactory, maintaining a 99.95% SLO for infrasturctural updates and maintenance.
 
 * Spearheaded the multi-quarter migration of over 800 repositories from bitbucket to GitHub, coordinating with all teams in engineering to ensure a smooth cut-over, minimizing disruption of daily activities. 
 
@@ -148,7 +153,7 @@ body {
 * Owned E2E testing of proprietary telemetry pipeline, A/B experiments framework, Google Analytics integration, and SQS integration.  Created a Google chrome extension to allow the company for real-time monitoring and debugging of the telemetry pipeline.
 
 <!-- START_COMPANY_TABLE -->
-| <span class="company-name">Microsoft</span>| <span class="position-title">Software Development Engineer in Test II</span> | <span class="company-location">Seattle, WA, USA</span> | <span class="position-timeline">03/09 - 03/15</span> |
+| <span class="company-name">Microsoft</span>| <span class="position-title">SDET II</span> | <span class="company-location">Seattle, WA, USA</span> | <span class="position-timeline">03/09 - 03/15</span> |
 | --- | ---|---|---|
 <!-- END_COMPANY_TABLE -->
 

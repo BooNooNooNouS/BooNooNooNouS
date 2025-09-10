@@ -17,6 +17,7 @@ def remove_style_block(content):
     style_pattern = r'<style>.*?</style>'
     return re.sub(style_pattern, '', content, flags=re.DOTALL)
 
+
 def convert_company_table_to_markdown(company_table):
     # Every company is in the raw file as a markdown table with columns:
     # Company name, title, location, and timeline.  Each of these is wrapped in a
@@ -36,6 +37,7 @@ def convert_company_table_to_markdown(company_table):
     markdown_link = f"![{company_name}](./{filename})"
     return markdown_link
 
+
 def find_and_replace_header_table(content):
     # The name and social media icons don't render nicely in GH md
     # so instead we replace the entire block with the SVG file.
@@ -49,6 +51,7 @@ def find_and_replace_header_table(content):
 <a href="mailto:karlacn@outlook.com"><img src="./icons/mail-icon.svg" width="24" height="24" alt="Email"></a>    
     """
     return re.sub(header_table_pattern, replace_with, content, flags=re.DOTALL)
+
 
 def find_and_replace_company_headers(content):
     # Look for all the START and END _COMPANY_TABLE tags and process them.
@@ -69,6 +72,7 @@ def find_and_replace_company_headers(content):
     
     return content
 
+
 def main():
     parser = argparse.ArgumentParser(description='Convert a resume file to GitHub-compatible markdown')
     parser.add_argument('--input_file', type=str, help='The input resume file')
@@ -77,12 +81,10 @@ def main():
 
     input_file = Path(args.input_file)
     output_file = Path(args.output_file)
-    
+
     if not input_file.exists():
         print(f"Error: {input_file} not found!")
         sys.exit(1)
-    
-
     with open(input_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
@@ -93,13 +95,13 @@ def main():
     # Remove the style block since we don't want it to show in github
     content = remove_style_block(content)
     
-    
     # Write the output file
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(content)
     
     print(f"Successfully converted {input_file} to {output_file}")
     print("The file is now GitHub-compatible using standard markdown!")
+
 
 if __name__ == '__main__':
     main()

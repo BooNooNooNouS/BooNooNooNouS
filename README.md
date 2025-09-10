@@ -1,6 +1,3 @@
-<!-- Updating these styles will mean updating create_svg as well,
-at least until this code is made more dynamic, as GITHUB requires
-pre-generated svgs instead of dynamic ones. -->
 
 
 
@@ -9,13 +6,12 @@ pre-generated svgs instead of dynamic ones. -->
 <a href="https://www.linkedin.com/in/karnu/"><img src="./icons/linkedin-icon.svg" width="24" height="24" alt="LinkedIn"></a>
 <a href="https://github.com/BooNooNooNouS"><img src="./icons/github-icon.svg" width="24" height="24" alt="GitHub"></a>
 <a href="https://gitlab.com/BooNooNooNouS"><img src="./icons/gitlab-icon.svg" width="24" height="24" alt="GitLab"></a>
-<a href="mailto:karlacn@outlook.com"><img src="./icons/mail-icon.svg" width="24" height="24" alt="Email"></a>    
-    
+<a href="mailto:karlacn@outlook.com"><img src="./icons/mail-icon.svg" width="24" height="24" alt="Email"></a>
 
 
 
 -------
-# Work experience
+
 ![PL](https://img.shields.io/badge/programming_languages-4EAA25?style=flat)
 ![CloudInfra](https://img.shields.io/badge/Cloud_and_Infrastructure-0052CC?style=flat)
 ![CICD](https://img.shields.io/badge/CICD-5C2D91?style=flat)
@@ -33,8 +29,13 @@ pre-generated svgs instead of dynamic ones. -->
 ![Jenkins](https://img.shields.io/badge/Jenkins-5C2D91?style=flat&logo=jenkins&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-5C2D91?style=flat&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-5C2D91.svg?style=flat&logo=githubactions&logoColor=white)
+![Terraform](https://img.shields.io/badge/terraform-5C2D91.svg?style=flat&logo=terraform&logoColor=white)
 
 
+* Orchestrated end-to-end modernization and migration of data analytics pipelines, implementing a blue/green deployment methodology for zero-downtime transitions, and improving operational visibility.
+
+
+* Became the organization's expert on cross-language package hosting in AWS and Artifactory, maintaining a 99.95% SLO for infrasturctural updates and maintenance.
 
 * Spearheaded the multi-quarter migration of over 800 repositories from bitbucket to GitHub, coordinating with all teams in engineering to ensure a smooth cut-over, minimizing disruption of daily activities. 
 
@@ -86,7 +87,7 @@ pre-generated svgs instead of dynamic ones. -->
 
 * Owned E2E testing of proprietary telemetry pipeline, A/B experiments framework, Google Analytics integration, and SQS integration.  Created a Google chrome extension to allow the company for real-time monitoring and debugging of the telemetry pipeline.
 
-![Microsoft](./microsoft_software_development_engineer_in_test_ii.svg)
+![Microsoft](./microsoft_sdet_ii.svg)
 
 ![C#](https://img.shields.io/badge/C%23-4EAA25?style=flat&logo=c-sharp&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-4EAA25?style=flat&logo=c%2B%2B&logoColor=white)

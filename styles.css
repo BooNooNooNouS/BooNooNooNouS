@@ -1,0 +1,165 @@
+/* Page margins for WeasyPrint */
+@page {
+    margin: 0.25in;
+    /* Other margin options:
+     * margin: 0.5in;   - Medium margins
+     * margin: 0.75in;  - Larger margins (default-ish)
+     * margin: 0.1in;   - Very small margins
+     * margin: 0;       - No margins (content to edge)
+     */
+    size: A4;
+}
+
+/* Default styles for PDF */
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    text-align: justify;
+    line-height: 1;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Ensure hyperlinks are visible and clickable */
+a {
+    color: #0066cc;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #004499;
+}
+
+/* Style for email links */
+a[href^="mailto:"] {
+    color: #cc6600;
+}
+
+/* Style for external links */
+a[href^="http"] {
+    color: #0066cc;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Header styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+/* List styling */
+ul, ol {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Code styling */
+code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Badge styling (for shields.io badges) */
+img[src*="shields.io"] {
+    margin: 2px;
+    vertical-align: middle;
+}
+
+/* Social icon styling */
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+/* Company name styling */
+.company-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Position styling */
+.position-title {
+    font-style: italic;
+    color: #666;
+}
+
+.company-location {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.position-timeline {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Page break styling */
+.page-break {
+    page-break-before: always;
+}
+
+/* Ensure links work in PDF */
+@media print {
+    a {
+        color: #0066cc !important;
+        text-decoration: underline !important;
+    }
+    
+    a[href^="mailto:"] {
+        color: #cc6600 !important;
+    }
+}

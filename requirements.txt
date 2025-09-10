@@ -1,0 +1,4 @@
+# Dependencies for convert_to_pdf.py
+markdown2>=2.4.0
+weasyprint>=60.0
+
